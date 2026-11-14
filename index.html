@@ -329,7 +329,39 @@ img{max-width:100%}
 .ad01-bonus-cover{min-height:240px;border-radius:18px;background:linear-gradient(145deg,#fff6ed,#ffdfeb);border:1px solid #f3bdd0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:25px;margin:8px 0 18px;color:#4b2c1c}
 .ad01-bonus-cover small{font-size:11px;font-weight:800;letter-spacing:2px}.ad01-bonus-cover strong{font-family:Georgia,serif;font-size:29px;line-height:1.12;margin:20px 0;color:#c91d57}.ad01-bonus-cover span{font-size:10px;letter-spacing:1px}
 @media(max-width:700px){.bonus-cards-v2{grid-template-columns:1fr!important}.hero h1{font-size:34px!important;line-height:1.05!important}.ad01-hero-detail{font-size:15px!important}}
-</style><style>.ad03-note{max-width:760px;margin:18px auto 0!important;font-size:12px!important;line-height:1.5!important;opacity:.95}.ad03-cost-note{font-size:12px;line-height:1.5;color:#62564e;margin:16px 0 0}.hero h1{line-height:1.05!important}</style></head><body>
+</style><style>.ad03-note{max-width:760px;margin:18px auto 0!important;font-size:12px!important;line-height:1.5!important;opacity:.95}.ad03-cost-note{font-size:12px;line-height:1.5;color:#62564e;margin:16px 0 0}.hero h1{line-height:1.05!important}</style><style id="cta-headline-proportion-fix">
+/* Consistência visual dos CTAs e hierarquia dos títulos */
+a.btn, a.btn.cta-green, a.btn.offer-green-btn {
+  box-sizing:border-box!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:min(100%,380px)!important;
+  min-height:60px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding:16px 24px!important;
+  font-size:17px!important;
+  line-height:1.2!important;
+  font-weight:900!important;
+  text-align:center!important;
+}
+#oferta a.btn.offer-green-btn {width:100%!important;max-width:100%!important;}
+@media(max-width:560px){
+  .hero.vsl-hero h1, .hero.hero-static h1 {
+    font-size:clamp(27px,7.2vw,32px)!important;
+    line-height:1.08!important;
+    letter-spacing:-1.1px!important;
+  }
+  a.btn, a.btn.cta-green, a.btn.offer-green-btn {
+    width:min(100%,360px)!important;
+    min-height:62px!important;
+    padding:17px 22px!important;
+    font-size:17px!important;
+  }
+  #oferta a.btn.offer-green-btn {width:100%!important;max-width:100%!important;}
+}
+</style></head><body>
 <section class="hero vsl-hero"><div class="wrap vsl-hero-wrap">
 <div class="hero-copy vsl-hero-copy">
 <div class="eyebrow">DA SUA COZINHA PARA OS SEUS PRIMEIROS PEDIDOS.</div>
