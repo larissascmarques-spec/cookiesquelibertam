@@ -877,3 +877,18 @@ a.btn, a.btn.cta-green, a.btn.offer-green-btn {
   });
 })();
 </script>
+
+<style id="hero-headline-equal-section-titles">
+/* Correção final: mesma escala tipográfica dos títulos de seção no celular.
+   Inserido ao final para prevalecer sobre os estilos antigos da hero. */
+@media(max-width:700px){
+  html body .hero.vsl-hero h1,
+  html body .hero.hero-static h1,
+  html body section.hero h1 {
+    font-size:clamp(38px,10.5vw,46px)!important;
+    line-height:1.02!important;
+    letter-spacing:-1.6px!important;
+    font-weight:900!important;
+  }
+}
+</style>
